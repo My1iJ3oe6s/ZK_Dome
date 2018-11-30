@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7eba312-37f4-4e90-8756-80efa65e04b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/joes/curator/client/ZookeeperClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/joes/curator/lock/Lock.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/joes/conf/Configuration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/joes/service/ZookeeperTool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/joes/test/StandaloneZKServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/joes/test/StandaloneZkClient$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/joes/test/StandaloneZkClient.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/joes/conf/Configuration.java" afterPath="$PROJECT_DIR$/src/main/java/cn/joes/dome/conf/Configuration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/joes/service/ZookeeperTool.java" afterPath="$PROJECT_DIR$/src/main/java/cn/joes/dome/service/ZookeeperTool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/joes/test/StandaloneZKServer.java" afterPath="$PROJECT_DIR$/src/main/java/cn/joes/dome/test/StandaloneZKServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/joes/test/StandaloneZkClient.java" afterPath="$PROJECT_DIR$/src/main/java/cn/joes/dome/test/StandaloneZkClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZK_Dome.iml" afterPath="$PROJECT_DIR$/ZK_Dome.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo.log" afterPath="$PROJECT_DIR$/zk_demo.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/joes/curator/lock/Lock.java" afterPath="$PROJECT_DIR$/src/main/java/cn/joes/curator/lock/Lock.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,104 +19,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/joes/curator/lock/Lock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="168">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterProcessMutex.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/development/maven/maven-repository/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar!/org/apache/curator/framework/recipes/locks/InterProcessMutex.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-              <folding>
-                <element signature="e#4303#4304#0" expanded="true" />
-                <element signature="e#4330#4331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AtomicInteger.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/development/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="185" column="25" lean-forward="true" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
-              <folding>
-                <element signature="e#4725#4726#0" expanded="true" />
-                <element signature="e#4793#4794#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LockInternals.class" pinned="false" current-in-tab="true">
-        <entry file="jar://E:/development/maven/maven-repository/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar!/org/apache/curator/framework/recipes/locks/LockInternals.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="207" column="46" lean-forward="false" selection-start-line="207" selection-start-column="46" selection-end-line="207" selection-end-column="46" />
-              <folding>
-                <element signature="e#1906#2164#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-                <element signature="e#2202#2335#0" expanded="true" />
-                <element signature="e#2334#2335#0" expanded="true" />
-                <element signature="e#4317#4523#0" expanded="true" />
-                <element signature="e#4522#4523#0" expanded="true" />
-                <element signature="e#9487#9488#0" expanded="true" />
-                <element signature="e#9519#9520#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LockInternalsDriver.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/development/maven/maven-repository/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar!/org/apache/curator/framework/recipes/locks/LockInternalsDriver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PredicateResults.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/development/maven/maven-repository/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar!/org/apache/curator/framework/recipes/locks/PredicateResults.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LockInternalsSorter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/development/maven/maven-repository/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar!/org/apache/curator/framework/recipes/locks/LockInternalsSorter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StandardLockInternalsDriver.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/development/maven/maven-repository/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar!/org/apache/curator/framework/recipes/locks/StandardLockInternalsDriver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="e#2010#2011#0" expanded="true" />
-                <element signature="e#2069#2070#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -942,12 +835,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543472052610</updated>
       <workItem from="1543472054583" duration="6606000" />
-      <workItem from="1543546474274" duration="19041000" />
+      <workItem from="1543546474274" duration="19222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25647000" />
+    <option name="totallyTimeSpent" value="25828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1257,16 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/joes/curator/lock/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/development/maven/maven-repository/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar!/org/apache/curator/framework/recipes/locks/LockInternalsSorter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1318,8 +1201,8 @@
     </entry>
     <entry file="jar://E:/development/maven/maven-repository/org/apache/curator/curator-recipes/2.7.0/curator-recipes-2.7.0.jar!/org/apache/curator/framework/recipes/locks/LockInternals.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="207" column="46" lean-forward="false" selection-start-line="207" selection-start-column="46" selection-end-line="207" selection-end-column="46" />
+        <state relative-caret-position="906">
+          <caret line="203" column="54" lean-forward="true" selection-start-line="203" selection-start-column="54" selection-end-line="203" selection-end-column="54" />
           <folding>
             <element signature="e#1906#2164#0" expanded="true" />
             <element signature="e#2163#2164#0" expanded="true" />
@@ -1329,6 +1212,16 @@
             <element signature="e#4522#4523#0" expanded="true" />
             <element signature="e#9487#9488#0" expanded="true" />
             <element signature="e#9519#9520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/joes/curator/lock/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
