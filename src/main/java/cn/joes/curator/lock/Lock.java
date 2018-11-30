@@ -10,6 +10,10 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by myijoes on 2018/11/30.
  *
+ * 参考地址: https://www.cnblogs.com/seaspring/p/5536338.html
+ *         https://www.jianshu.com/p/6618471f6e75
+ *         https://blog.csdn.net/en_joker/article/details/78789891
+ *
  * @author wanqiao
  */
 public class Lock {
