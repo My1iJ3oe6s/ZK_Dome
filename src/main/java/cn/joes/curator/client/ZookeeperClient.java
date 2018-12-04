@@ -17,6 +17,8 @@ import java.util.concurrent.*;
 /**
  * Created by myijoes on 2018/11/30.
  *
+ * Curator参考资料: https://www.cnblogs.com/LiZhiW/tag/ZooKeeper/
+ *
  * @author wanqiao
  */
 public class ZookeeperClient {

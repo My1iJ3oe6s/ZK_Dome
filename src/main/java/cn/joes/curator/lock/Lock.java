@@ -14,6 +14,13 @@ import java.util.concurrent.TimeUnit;
  *         https://www.jianshu.com/p/6618471f6e75
  *         https://blog.csdn.net/en_joker/article/details/78789891
  *
+ * Curator锁的实现包括:
+ *      Shared Reentrant Lock - 全功能的分布式锁。任何一刻不会有两个client同时拥有锁
+ *      Shared Lock - 与Shared Reentrant Lock类似但是不是重入的
+ *      Shared Reentrant Read Write Lock - 类似Java的读写锁，但是是分布式的
+ *      Shared Semaphore - 跨JVM的计数信号量
+ *      Multi Shared Lock - 将多个锁看成整体，要不全部acquire成功，要不acquire全部失败。release也是释放全部锁
+ *
  * @author wanqiao
  */
 public class Lock {
@@ -27,6 +34,8 @@ public class Lock {
         // 1.Connect to zk
         CuratorFramework client = CuratorFrameworkFactory.newClient(
                 ZK_ADDRESS,
+                // 重试策略
+                // 初始休眠时间为 1000ms, 最大重试次数为 3
                 new RetryNTimes(10, 5000)
         );
         client.start();
@@ -51,6 +60,7 @@ public class Lock {
      * InterProcessMultiLock：将多个锁作为单个实体管理的容器
      *
      * 分布式锁参考理解文章: https://www.jianshu.com/p/6618471f6e75
+     *                  http://www.cnblogs.com/LiZhiW/p/4931577.html
      *
      * @param client
      */
